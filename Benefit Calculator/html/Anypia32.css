@@ -1,0 +1,130 @@
+﻿/*Created with Adobe RoboHelp 8.*/
+body {
+	font-size: 75%;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+a:link {
+	color: #0000ff;
+	text-decoration: underline;
+}
+a:visited {
+	color: #800080;
+	text-decoration: underline;
+}
+a:active {
+	color: #ff0000;
+	text-decoration: underline;
+}
+p.CellBody {
+	font-size: 75%;
+	text-align: left;
+	margin-bottom: 1pt;
+	vertical-align: baseline;
+}
+LI.p-CellBody {
+	font-size: 75%;
+	text-align: left;
+}
+p.CellBodyRight {
+	font-size: 75%;
+	text-align: right;
+	margin-bottom: 1pt;
+	vertical-align: baseline;
+}
+LI.p-CellBodyRight {
+	font-size: 75%;
+	text-align: right;
+}
+p.1CellBody {
+	font-size: 75%;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 1pt;
+	vertical-align: baseline;
+}
+LI.p-1CellBody {
+	font-size: 75%;
+	font-weight: bold;
+	text-align: left;
+}
+p.CellHeading {
+	font-size: 75%;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: baseline;
+}
+LI.p-CellHeading {
+	font-size: 75%;
+	font-weight: bold;
+	text-align: center;
+}
+h1 {
+	font-size: 120%;
+	font-weight: bold;
+}
+LI.h1 {
+	font-size: 120%;
+	font-weight: bold;
+}
+h2 {
+	font-size: 110%;
+	font-weight: bold;
+}
+LI.h2 {
+	font-size: 110%;
+	font-weight: bold;
+}
+li {
+	margin-top: 4pt;
+}
+ul li {
+	padding-top: 4pt;
+}
+p.1CellBody {
+	font-size: 75%;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 1pt;
+	vertical-align: baseline;
+	margin-left: 14pt;
+}
+LI.p-1CellBody {
+	font-size: 75%;
+	font-weight: bold;
+	text-align: left;
+}
+p.TableTitle {
+	text-align: center;
+	margin-left: 14pt;
+	font-style: Regular;
+	vertical-align: baseline;
+}
+LI.p-TableTitle {
+	text-align: center;
+	font-style: Regular;
+}
+A.expandspot {
+	cursor: hand;
+	color: #008000;
+	font-style: normal;
+}
+SPAN.expandtext {
+	color: #ff0000;
+	font-weight: normal;
+	font-style: italic;
+}
+A.dropspot {
+	font-style: italic;
+	color: #008000;
+	cursor: hand;
+}
+A.glossterm {
+	cursor: hand;
+	color: #800000;
+	font-style: normal;
+}
+SPAN.glosstext {
+	color: #0000ff;
+	font-weight: normal;
+	font-style: italic;
+}

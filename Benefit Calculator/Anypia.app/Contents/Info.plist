@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>10K549</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>pia</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>anypiafile.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Document</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>TEXT</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Anypia</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Anypia version 2019.2</string>
+	<key>CFBundleIconFile</key>
+	<string>anypiaapp.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>gov.ssa.anypia</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Anypia</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2019.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>DTCompiler</key>
+	<string>4.0</string>
+	<key>DTPlatformBuild</key>
+	<string>10M2518</string>
+	<key>DTPlatformVersion</key>
+	<string>PG</string>
+	<key>DTSDKBuild</key>
+	<string>8S2167</string>
+	<key>DTSDKName</key>
+	<string>macosx10.4</string>
+	<key>DTXcode</key>
+	<string>0400</string>
+	<key>DTXcodeBuild</key>
+	<string>10M2518</string>
+	<key>LSPrefersCarbon</key>
+	<true/>
+</dict>
+</plist>

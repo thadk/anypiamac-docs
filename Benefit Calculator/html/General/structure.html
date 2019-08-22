@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="MS-HKWD" content="file structure" />
+<meta name="date" content="04 6, 2001 12:27:03 PM" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>File structure</title>
+<link rel="stylesheet" href="../Anypia32.css" charset="ISO-8859-1" type="text/css" />
+<style type="text/css">
+/*<![CDATA[*/
+body {
+        background-color: #ffffff;
+}
+/*]]>*/
+</style>
+</head>
+<body style="color: #000000;">
+<h1><a name="hid_filestructure" id="hid_filestructure"></a>File structure</h1>
+<p>The file created when you choose "Save" or "Save As" from the File menu is stored in a file with a name ending in ".pia". Normally you do not need to view the file directly; you would choose "Open" from the File menu to read the file back into the Social Security Benefit Calculator.</p>
+<p>In some cases you may want to view or edit a ".pia" file. The file is stored as ASCII text, where each line begins with a 2-digit line number. The rest of each line depends on the line number, as follows:</p>
+<table>
+<tr style="vertical-align: bottom;">
+<td>
+<p class="CellHeading">Line number</p>
+</td>
+<td>
+<p class="CellHeading">Position</p>
+</td>
+<td>
+<p class="CellHeading">Description</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">01</p>
+</td>
+<td>
+<p class="CellBody">3-11</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_ssn.html">Social Security number</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">12</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_sex.html">Sex</a><br />
+0 for male<br />
+1 for female</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="width: 12%;">
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">13-14</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_date_of_birth.html">Month of birth</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">15-16</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_date_of_birth.html">Day of birth</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">17-20</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_date_of_birth.html">Year of birth</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">02</p>
+</td>
+<td>
+<p class="CellBody">3-4</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_date_of_death.html">Month of death</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">5-6</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_date_of_death.html">Day of death</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7-10</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_date_of_death.html">Year of death</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">03</p>
+</td>
+<td>
+<p class="CellBody">3</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/type_of_benefit.html">Type of benefit</a><br />
+1 for old age<br />
+2 for survivor<br />
+3 for disability</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">4-5</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_date_of_ent.html">Month of entitlement</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">6-9</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_date_of_ent.html">Year of entitlement</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">04</p>
+</td>
+<td>
+<p class="CellBody">3-4</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_benefit.html">Month of benefit</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">5-8</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_benefit.html">Year of benefit</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">06</p>
+</td>
+<td>
+<p class="CellBody">3-6</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/supplemental_first_year.html">First year of earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7-10</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/last_year.html">Last year of earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">07</p>
+</td>
+<td>
+<p class="CellBody">3</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/back_proj_type.html">Type of backward projection</a><br />
+0 for no backward projection<br />
+1 for projection related to average wage increase<br />
+2 for projection by a constant percentage</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">4-9</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/back_proj_perc.html">Backward projection percentage</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">10-13</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/back_first_year.html">Last year of earnings in backward projection period</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">08</p>
+</td>
+<td>
+<p class="CellBody">3</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/fwrd_proj_type.html">Type of forward projection</a><br />
+0 for no forward projection<br />
+1 for projection related to average wage increase<br />
+2 for projection by a constant percentage</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">4-9</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/fwrd_proj_perc.html">Forward projection percentage</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">10-13</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/fwrd_last_year.html">First year of earnings in forward projection period</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">09</p>
+</td>
+<td>
+<p class="CellBody">3-4</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_onset.html">Month of onset for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">5-6</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_onset.html">Day of onset for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7-10</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_onset.html">Year of onset for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">11-12</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_disab_ent.html">Month of entitlement for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">13-16</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_disab_ent.html">Year of entitlement for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">17-18</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/waiting_period.html">Month of first month of waiting period for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">19-22</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/waiting_period.html">Year of first month of waiting period for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">23-24</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_cessation.html">Month of cessation for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">25-28</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_cessation.html">Year of cessation for most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">29-38</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/pia_at_cessation.html">PIA at cessation of most recent period of disability</a> (Optional)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">39-48</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/mfb_at_cessation.html">MFB at cessation of most recent period of disability</a> (Optional)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">10</p>
+</td>
+<td>
+<p class="CellBody">3-4</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_onset1.html">Month of onset for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">5-6</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_onset1.html">Day of onset for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7-10</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_onset1.html">Year of onset for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">11-12</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_disab_ent1.html">Month of entitlement for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">13-16</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_disab_ent1.html">Year of entitlement for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">17-18</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/waiting_period1.html">Month of first month of waiting period for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">19-22</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/waiting_period1.html">Year of first month of waiting period for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">23-24</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_cessation1.html">Month of cessation for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">25-28</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/date_of_cessation1.html">Year of cessation for second most recent period of disability</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">29-38</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/pia_at_cessation1.html">PIA at cessation of second most recent period of disability</a> (Optional)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">39-48</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/mfb_at_cessation1.html">MFB at cessation of second most recent period of disability</a> (Optional)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">11</p>
+</td>
+<td>
+<p class="CellBody">3-4</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/military_service.html">Beginning month of first period of military service</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">5-8</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/military_service.html">Beginning year of first period of military service</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">9-10</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/military_service.html">Ending month of first period of military service</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">11-14</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/military_service.html">Ending year of first period of military service</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">15-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/military_service.html">Beginning and ending dates of second period of military service</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">...</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/military_service.html">Beginning and ending dates of third through 15th periods of military service</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">12</p>
+</td>
+<td>
+<p class="CellBody">3-12</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/noncovered_pension.html">Monthly noncovered pension</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">13-14</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/Date_of_entitlement_for_noncovered_pension.html">Month of entitlement to noncovered pension</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">15-18</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/Date_of_entitlement_for_noncovered_pension.html">Year of entitlement to noncovered pension</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">13</p>
+</td>
+<td>
+<p class="CellBody">3</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/totalization.html">Totalization indicator</a> (1 if totalization applies, 0 otherwise)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">14</p>
+</td>
+<td>
+<p class="CellBody">3</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/blindness.html">Blindness indicator</a> (1 if worker is blind, 0 otherwise)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">15</p>
+</td>
+<td>
+<p class="CellBody">3</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/deemed_insured.html">Deemed insured indicator</a> (1 if deemed insured provision applies) 0 otherwise</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">16</p>
+</td>
+<td>
+<p class="CellBody">3-37</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/worker_name.html">Number holder's name</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">17</p>
+</td>
+<td>
+<p class="CellBody">3-37</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/address.html">First line of number holder's address</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">18</p>
+</td>
+<td>
+<p class="CellBody">3-37</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/address.html">Second line of number holder's address</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">19</p>
+</td>
+<td>
+<p class="CellBody">3-37</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/address.html">Third line of number holder's address</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">20</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/type_of_earnings.html">Type of earnings</a> with 1 position for each year from first year in line 6, or year in line 7 if specified, to last year in line 6, or year in line 8 if specified<br />
+0 for entered earnings<br />
+1 for maximum<br />
+2 for high<br />
+3 for average<br />
+4 for low</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">21</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/type_of_taxes.html">Type of taxes</a>, with 1 position for each year in period specified in line 6<br />
+0 for employee taxes<br />
+1 for self-employed taxes</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td colspan="3">
+<p class="1CellBody">Earnings on lines 22-29 are for same years for which type of earnings were specified on line 20. Each earnings amount takes 11 positions, with two decimal places and leading blanks if required, e.g. " &#160;100000.00" for $100,000.00 in earnings.</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">22</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/earnings_amount.html">First 10 years of OASDI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">23</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/earnings_amount.html">Second 10 years of OASDI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">24</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/earnings_amount.html">Third 10 years of OASDI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">25</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/earnings_amount.html">Fourth 10 years of OASDI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">26</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/earnings_amount.html">Fifth 10 years of OASDI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">27</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/earnings_amount.html">Sixth 10 years of OASDI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">28</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/earnings_amount.html">Seventh 10 years of OASDI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">29</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/earnings_amount.html">Eighth 10 years of OASDI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td colspan="3">
+<p class="1CellBody">Earnings on lines 30-37 are for period starting with maximum of 1983 and first year specified on line 6 and ending with last year on line 6. Each earnings amount takes 11 positions, with two decimal places and leading blanks if required, e.g. " &#160;100000.00" for $100,000.00 in earnings.</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">30</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/medicare_earnings.html">First 10 years of HI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">31</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/medicare_earnings.html">Second 10 years of HI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">32</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/medicare_earnings.html">Third 10 years of HI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">33</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/medicare_earnings.html">Fourth 10 years of HI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">34</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/medicare_earnings.html">Fifth 10 years of HI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">35</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/medicare_earnings.html">Sixth 10 years of HI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">36</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/medicare_earnings.html">Seventh 10 years of HI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">37</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/medicare_earnings.html">Eighth 10 years of HI earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">38</p>
+</td>
+<td>
+<p class="CellBody">3-12</p>
+</td>
+<td>
+<p class="CellBody">Monthly noncovered pension after removal of military reservist pension</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">39</p>
+</td>
+<td>
+<p class="CellBody">3-4</p>
+</td>
+<td>
+<p class="CellBody">Month of old-age entitlement prior to most recent disability</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">5-8</p>
+</td>
+<td>
+<p class="CellBody">Year of old-age entitlement prior to most recent disability</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">9-10</p>
+</td>
+<td>
+<p class="CellBody">Month of old-age termination prior to most recent disability</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">11-14</p>
+</td>
+<td>
+<p class="CellBody">Year of old-age termination prior to most recent disability</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">40</p>
+</td>
+<td>
+<p class="CellBody">3-6</p>
+</td>
+<td>
+<p class="CellBody">First year of benefit increase projection</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/ben_inc_sets.html">Benefit increase assumption indicator</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">8</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/avg_wage_sets.html">Average wage increase assumption indicator</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">9</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base_ind.html">Maximum wage base projection indicator</a><br />
+1 for automatic projection<br />
+2 for ad hoc bases</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td colspan="3">
+<p class="1CellBody">Benefit increases on lines 41-44 start in year specified on line 40 and end in year specified on line 3 (or line 4 if specified). Each increase takes 4 positions, with one decimal place and leading blanks if required, e.g. " 4.0" for a 4-percent benefit increase.</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">41</p>
+</td>
+<td>
+<p class="CellBody">3-6</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/benefit_increase.html">First benefit increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7-10</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/benefit_increase.html">Second benefit increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">...</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/benefit_increase.html">Third through 20th benefit increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">42</p>
+</td>
+<td>
+<p class="CellBody">3-82</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/benefit_increase.html">21st through 40th benefit increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">43</p>
+</td>
+<td>
+<p class="CellBody">3-82</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/benefit_increase.html">41st through 60th benefit increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">44</p>
+</td>
+<td>
+<p class="CellBody">3-82</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/benefit_increase.html">61st through 80th benefit increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td colspan="3">
+<p class="1CellBody">Catch-up increases on lines 45-54 start two years after year specified on line 40. Each increase takes 4 positions, with one decimal place and leading blanks if required, e.g. " 4.0" for a 4-percent benefit increase.</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">45</p>
+</td>
+<td>
+<p class="CellBody">3-6</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">First catch-up benefit increase for year of eligibility specified on line 40</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7-10</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">Second catch-up benefit increase for year of eligibility specified on line 40</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">11-14</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">Third catch-up benefit increase for year of eligibility specified on line 40</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">15-18</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">Fourth catch-up benefit increase for year of eligibility specified on line 40</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">19-22</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">Fifth catch-up benefit increase for year of eligibility specified on line 40</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">23-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">Sixth catch-up benefit increase for year of eligibility specified on line 40</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">27-30</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">Seventh catch-up benefit increase for year of eligibility specified on line 40</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">31-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">Eighth catch-up benefit increase for year of eligibility specified on line 40</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">46</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 45</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">47</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 46</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">48</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 47</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">49</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 48</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">50</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 49</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">51</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 50</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">52</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 51</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">53</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 52</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">54</p>
+</td>
+<td>
+<p class="CellBody">3-34</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/forms_catchup_increases.html">8 catch-up benefit increases for next year of eligibility after year used in line 53</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">55</p>
+</td>
+<td>
+<p class="CellBody">3-67</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/ben_inc_title.html">Title of benefit increase assumptions</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td colspan="3">
+<p class="1CellBody">Average wage increases on lines 56-59 start in year before year specified on line 40 and end in year specified on line 3 (or line 4 if specified). Each increase takes 6 positions, with three decimal places and leading blanks if required, e.g. " 4.000" for a 4-percent average wage increase.</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">56</p>
+</td>
+<td>
+<p class="CellBody">3-8</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/average_wage.html">First average wage increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">9-14</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/average_wage.html">Second average wage increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">...</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/average_wage.html">Third through 20th average wage increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">57</p>
+</td>
+<td>
+<p class="CellBody">3-122</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/average_wage.html">21st through 40th average wage increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">58</p>
+</td>
+<td>
+<p class="CellBody">3-122</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/average_wage.html">41st through 60th average wage increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">59</p>
+</td>
+<td>
+<p class="CellBody">3-122</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Properties/average_wage.html">61st through 80th average wage increase</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">60</p>
+</td>
+<td>
+<p class="CellBody">3-67</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/avg_wage_title.html">Title of average wage increase assumptions</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td colspan="3">
+<p class="1CellBody">Maximum OASDI wage bases on lines 61-64 start in year after year specified on line 40 and end in year specified on line 3 (or line 4 if specified). Each wage base takes 11 positions, with two decimal places and leading blanks if required, e.g. " 1000000.00" for a $1,000,000.00 wage base.</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">61</p>
+</td>
+<td>
+<p class="CellBody">3-13</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base.html">First OASDI wage base</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">14-24</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base.html">Second OASDI wage base</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">...</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base.html">Third through 20th OASDI wage bases</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">62</p>
+</td>
+<td>
+<p class="CellBody">3-222</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base.html">21st through 40th OASDI wage bases</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">63</p>
+</td>
+<td>
+<p class="CellBody">3-222</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base.html">41st through 60th OASDI wage bases</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">64</p>
+</td>
+<td>
+<p class="CellBody">3-222</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base.html">61st through 80th OASDI wage bases</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td colspan="3">
+<p class="1CellBody">Maximum old-law wage bases on lines 65-68 start in year after year specified on line 40 and end in year specified on line 3 (or line 4 if specified). Each wage base takes 11 positions, with two decimal places and leading blanks if required, e.g. " 1000000.00" for a $1,000,000.00 wage base.</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">65</p>
+</td>
+<td>
+<p class="CellBody">3-13</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base_ol.html">First old-law wage base</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">14-24</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base_ol.html">Second old-law wage base</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">...</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base_ol.html">Third through 20th old-law wage bases</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">66</p>
+</td>
+<td>
+<p class="CellBody">3-222</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base_ol.html">21st through 40th old-law wage bases</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">67</p>
+</td>
+<td>
+<p class="CellBody">3-222</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base_ol.html">41st through 60th old-law wage bases</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">68</p>
+</td>
+<td>
+<p class="CellBody">3-222</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/wage_base_ol.html">61st through 80th old-law wage bases</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">69</p>
+</td>
+<td>
+<p class="CellBody">3</p>
+</td>
+<td>
+<p class="CellBody">First family member's major beneficiary identification code (bic)<br />
+A - primary (old-age or disability)<br />
+B - wife or husband (young or aged)<br />
+C - child (minor, student, or disabled)<br />
+D - aged widow(er)<br />
+E - mother or father<br />
+F - parent<br />
+T - transitionally insured<br />
+U - transitionally uninsured<br />
+W - disabled widow(er)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">4</p>
+</td>
+<td>
+<p class="CellBody">First family member's minor beneficiary identification code (bic)<br />
+If major bic is B, then:<br />
+blank - aged wife or husband<br />
+2 - young wife or husband<br />
+6 - divorced aged wife or husband<br />
+If major bic is D, then:<br />
+blank - aged widow(er)<br />
+6 - surviving divorced wife or husband<br />
+If major bic is W, then:<br />
+blank - disabled widow(er)<br />
+6 - surviving disabled divorced wife or husband</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">5-6</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/fammem_date_of_birth.html">First family member's month of birth</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7-8</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/fammem_date_of_birth.html">First family member's day of birth</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">9-12</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/fammem_date_of_birth.html">First family member's year of birth</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">13-14</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/fammem_date_of_ent.html">First family member's month of entitlement</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">15-18</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/fammem_date_of_ent.html">First family member's year of entitlement</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">19-20</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/widow_date_of_onset.html">Widow(er)'s month of disability onset</a> (if major bic is W)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">21-22</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/widow_date_of_onset.html">Widow(er)'s day of disability onset</a> (if major bic is W)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">23-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/widow_date_of_onset.html">Widow(er)'s year of disability onset</a> (if major bic is W)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">70</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for second family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">71</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for third family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">72</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for fourth family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">73</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for fifth family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">74</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for sixth family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">75</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for seventh family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">76</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for eighth family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">77</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for ninth family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">78</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for 10th family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">79</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for 11th family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">80</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for 12th family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">81</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for 13th family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">82</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for 14th family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">83</p>
+</td>
+<td>
+<p class="CellBody">3-26</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/family_members.html">Data for 15th family member</a>, as in line 69</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">84</p>
+</td>
+<td>
+<p class="CellBody">3-4</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad_qcs.html">Total railroad quarters of coverage, 1937-1950</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">5-15</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">Total railroad earnings, 1937-1950</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">85</p>
+</td>
+<td>
+<p class="CellBody">3-6</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad_first_year.html">First year of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">7-10</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad_last_year.html">Last year of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">86</p>
+</td>
+<td>
+<p class="CellBody">3-29</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad_qcs.html">Annual railroad quarters of coverage</a>, with 1 position for each year from 1951 to 1977</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">87</p>
+</td>
+<td>
+<p class="CellBody">3-112</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">First 10 years of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">88</p>
+</td>
+<td>
+<p class="CellBody">3-112</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">Second 10 years of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">89</p>
+</td>
+<td>
+<p class="CellBody">3-112</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">Third 10 years of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">90</p>
+</td>
+<td>
+<p class="CellBody">3-112</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">Fourth 10 years of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">91</p>
+</td>
+<td>
+<p class="CellBody">3-112</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">Fifth 10 years of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">92</p>
+</td>
+<td>
+<p class="CellBody">3-112</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">Sixth 10 years of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">93</p>
+</td>
+<td>
+<p class="CellBody">3-112</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">Seventh 10 years of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">94</p>
+</td>
+<td>
+<p class="CellBody">3-112</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/railroad.html">Eighth 10 years of railroad earnings</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">95</p>
+</td>
+<td>
+<p class="CellBody">3-5</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/quarters_37_77.html">Total quarters of coverage, 1937-1977</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">&#160;</p>
+</td>
+<td>
+<p class="CellBody">6-8</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/quarters_51_77.html">Total quarters of coverage, 1951-1977</a></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">96</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/annual_quarters.html">Annual quarters of coverage,</a> with 1 position for each year from first year in line 6 to earlier of last year in line 6 or 1977 (0-4)</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td>
+<p class="1CellBody">97</p>
+</td>
+<td>
+<p class="CellBody">*</p>
+</td>
+<td>
+<p class="CellBody"><a href="../Forms/childcare_years.html">Annual indicator for childcare year,</a> with 1 position for each year from first year in line 6 to last year in line 6<br />
+0 for non-childcare year<br />
+1 for childcare year</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
